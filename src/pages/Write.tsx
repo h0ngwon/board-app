@@ -2,7 +2,7 @@ import React from 'react';
 
 type Props = {};
 
-const Write = (props: Props) => {
+const Write: React.FC = (props: Props) => {
 	return <div>Write</div>;
 };
 

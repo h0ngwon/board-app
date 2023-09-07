@@ -5,7 +5,7 @@ import styles from './BoardItem.module.css';
 
 type Props = {};
 
-const BoardItem = (props: Props) => {
+const BoardItem: React.FC = (props: Props) => {
 	return (
 		<Card
 			title='Card title'

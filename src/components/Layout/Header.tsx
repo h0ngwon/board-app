@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 type Props = {};
 
-const Header = (props: Props) => {
+const Header: React.FC = (props: Props) => {
 	return (
 		<>
 			<header>
